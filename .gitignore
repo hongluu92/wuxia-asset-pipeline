@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Unity generated
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Obj/
+UnityProject/Logs/
+UnityProject/Build/
+UnityProject/Builds/
+UnityProject/UserSettings/
+UnityProject/MemoryCaptures/
+
+# Blender autosave
+*.blend1
+*.blend2
+*.blend@
+
+# Generated images and large source content
+ArtPipeline/renders/**
+!ArtPipeline/renders/.gitkeep
+ArtPipeline/atlases/**
+!ArtPipeline/atlases/.gitkeep
+ArtPipeline/free_assets/**
+!ArtPipeline/free_assets/.gitkeep
+
+# Secrets
+.env
+.env.*
+!.env.example

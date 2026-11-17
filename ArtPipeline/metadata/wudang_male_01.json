@@ -1,0 +1,11 @@
+{
+  "character_id": "wudang_male_01",
+  "directions": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"],
+  "pivot_normalized": [0.5, 0.9],
+  "frames_size": [192, 192],
+  "animations": {
+    "idle": {"frames_per_direction": 6, "fps": 8, "loop": true},
+    "walk": {"frames_per_direction": 8, "fps": 10, "loop": true},
+    "attack": {"frames_per_direction": 10, "fps": 12, "loop": false, "events": [{"time_normalized": 0.5, "name": "hit"}]}
+  }
+}
